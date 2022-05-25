@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(32,23,74,1) 25%, rgba(39,63,139,1) 50%, rgba(65,124,247,1) 70%, rgba(231,239,241,1) 80%);
+    background-repeat: no-repeat;
+    font-family: Lucida Bright,serif;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline dotted;
+}
+
+h1{
+    display: block;
+}
+
+h1, h2, h3, h4, p, ul, table, span{
+    color: white;
+}
+
+#list{
+    display:flex;
+    justify-content: center;
+    text-align: left;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    color: #FFF01F;
+}
+
+#hobbies{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.abtme{
+   border-radius: 50% 50%;
+   height:100px;
+   width:100px;
+   position:static;
+   object-fit: cover;
+   display: inline-block;
+}
+
+#form{
+    background-image:url("../images/Lavender.png");
+    background-size: contain;
+    display:flex;
+    justify-content: center;
+}
+
+#music{
+    position: relative;
+}
+
+input[type="textarea"]{
+    height: 150px;
+    width: 600px;
+}
